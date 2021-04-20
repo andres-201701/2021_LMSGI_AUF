@@ -1,0 +1,42 @@
+body (color:red;)
+
+div {
+	width:120px;
+	height:120px;
+	background-color: blue;
+	padding-bottom: 10px;
+	display: inline-block;
+	/*
+	border-color: red;
+	border-style: solid;
+	border-width:10px;
+	*/
+	border: solid red 10px;
+	border-top-style: dotted;
+	border-bottom-style : dotted;
+	background-image: ('../imagenes/realM.jpg');
+	background-size: 50px;
+	background-repeat: repeat-x;
+	background-position: left;
+	
+}
+div:nth-chil(2n) {
+	background-image :url('../imagenes/cadiz.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+div:nth-chil(2n+1) {
+	background-image :url('../imagenes/realM.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+	
+#uno {
+background-image:url('../imagenes/realM.jpg'),url('../imagenes/cadiz.jpg'),url('../imagenes/realM.jpg'),url('../imagenes/cadiz.jpg');	
+	background-size: 25%;
+	background-position: left top, left botton, righ top, right bottom;
+	
+	
+	
+	
+}

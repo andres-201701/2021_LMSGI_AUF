@@ -1,0 +1,130 @@
+﻿
+/* 
+    Created on : 26-11-2020, 
+    Author     : Andrés de Uña
+   
+*/
+body{
+	background-image: url("../images/prince.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin-right: 250px;
+}
+
+h1{
+	color:#FF4500;
+	background-color:#FFB976;
+}
+div{
+	padding: 3px 0px;
+	margin: 6px 0px;
+	
+}
+.par1{
+	background-color: lightblue;
+	color:#088000;
+	padding-top: 3px;
+	padding-bottom:3px;
+	margin: 3px 0;
+}
+.static{
+	border-color:#E9967A;
+	border-style:solid;
+	border-width:2px;
+	padding: 3px 0px;
+	margin: 6px 0px;
+	
+}
+.relative{
+	border-color:#9932CC;
+	border-style:dotted;
+	border-width:1px;
+	margin-left: 9px;
+	
+}
+.fixed{
+	border-color:#04B404;
+	border-style:dashed;
+	border-width:3px;
+	background-color:#FFB973;
+	max-width: 243.5px;
+	position: fixed;
+	right:0px;
+	bottom:9px;
+}
+
+.relative1{
+	border: solid 3px green;
+	width: 33%;
+	
+	position:relative;
+	padding-bottom:100px;
+	
+}
+.absolute1{
+	border: solid 3px lightgreen;
+	position: absolute;
+	bottom:0px;
+	left: 50%;
+	right:3%;   
+	
+}
+.sticky{
+	background-color:#088000;
+	border-color:lightgreen;
+	border-width:1px;
+	border-style:solid;
+	color:lightgreen;
+	text-align:center;
+	border-radius: 25px;
+}
+.img1{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	width:30%;
+	opacity:0.5;
+	
+}
+.container{
+	position:relative;
+	border-color:#8B008B;
+	border-width:3px;
+	border-style:solid;
+}
+.img2{
+	width:50%;
+	opacity:0.5;
+	height:auto;
+	
+}
+.topleft , .topright, .bottomleft, .bottomright, .center{
+	position: absolute;
+	font-size: 18px;
+	font-variant:small-caps;
+	color:#8B008B;
+	background-color:#FF9C00;
+	border:3px solid #8B008B;
+}
+.topleft{
+	left:9px;
+	top:9px;
+	
+}
+.topright{
+	right:9px;
+	top:9px;
+}
+.center{
+	top:50%;
+	right:50%
+}
+.bottomright{
+	 bottom: 9px;
+	 right: 9px;	 
+ }
+ .bottomleft{
+	 bottom: 9px;
+	 left: 9px;
+ }
+

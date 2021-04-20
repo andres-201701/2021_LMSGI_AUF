@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"> 
+<title>Ejercicio 02</title>
+<id>http://192.168.2.120/</id>
+<updated>2021-01-20T20:34:14 +01:00</updated>
+<link rel="alternate" type="text/html" href="http://192.168.2.120/"/>
+<link rel="self" type="text/atom+xml" href="http://192.168.2.120/"/>
+<author>
+<name>Andrés de Uña</name>
+<uri>http://192.168.2.120/</uri>
+<email>andresdeuna@gmail.com</email>
+</author>
+
+<entry>
+<title>Ejercicio 10</title>
+<id>http://192.168.2.120/ud02/10/index.html</id>
+<updated>2021-01-20T20:50:14 +01:00</updated>
+<author>
+<name>Andrés de Uña</name>
+</author>
+</entry>
+
+<entry>
+<title>Ejercicio 11</title>
+<id>http://192.168.2.120/ud02/11/index.html</id>
+<updated>2021-01-20T20:50:14 +01:00</updated>
+<author>
+<name>Andrés de Uña</name>
+</author>
+</entry>
+<entry>
+<title>Ejercicio 12</title>
+<id>http://192.168.2.120/ud02/12/index.html</id>
+<updated>2021-01-20T20:50:14 +01:00</updated>
+<author>
+<name>Andrés de Uña</name>
+</author>
+</entry>
+<entry>
+<title>Ejercicio 13</title>
+<id>http://192.168.2.120/ud02/13/index.html</id>
+<updated>2021-01-20T20:50:14 +01:00</updated>
+<author>
+<name>Andrés de Uña</name>
+</author>
+</entry>
+<entry>
+<title>Ejercicio 14</title>
+<id>http://192.168.2.120/ud02/14/index.html</id>
+<updated>2021-01-20T20:50:14 +01:00</updated>
+<author>
+<name>Andrés de Uña</name>
+</author>
+</entry>
+</feed>
+	
+		
+	

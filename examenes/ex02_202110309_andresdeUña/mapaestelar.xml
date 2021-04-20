@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE mapaestelar SYSTEM "mapaestelar.dtd">
+
+<mapaestelar
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+     xsi:noNamespaceSchemaLocation='mapaestelar.xsd'>
+>
+    <constelacion nombreLatin="Ursa maior">
+        <nombre>La Osa Mayor</nombre>
+        <superficie> 1300 grados cuadrados</superficie>
+        <estrellas numeroEstrellas="209">
+            <asterismo>7</asterismo>
+            <masBrillante luminosidad="1" >Alioth</masBrillante>
+        </estrellas>
+        <objetos>
+            <cumulos>false</cumulos>
+            <nebulosas>true</nebulosas>
+            <galaxias>true</galaxias>
+            <cuasares>false </cuasares>
+            <lluviademeteoros>Kappa Ursa Mayoridas</lluviademeteoros>
+            <lluviademeteoros>Lambda Ursa Mayoridas</lluviademeteoros>
+            <lluviademeteoros>Psi Ursa Mayoridas</lluviademeteoros>
+            <lluviademeteoros>Ursa Mayoridas de octubre</lluviademeteoros>
+        </objetos>
+        <colindantes>Bootes</colindantes>
+        <colindantes>Camelopardalis</colindantes>
+        <colindantes>Canes Venatici</colindantes>
+        <colindantes>Draco</colindantes>
+        <colindantes>Leo</colindantes>
+        <colindantes>Leo Minor </colindantes>
+        <colindantes>Lynx</colindantes>
+        <observacion>
+            <hemisferio valor="norte"></hemisferio>
+            <mes valor="10"></mes>
+            <hora valor="12:12:12"></hora>
+        </observacion>
+    </constelacion>
+</mapaestelar>

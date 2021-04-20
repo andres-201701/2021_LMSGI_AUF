@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE grupo [
+    <!ELEMENT grupo (estudiante*)>
+     <!ELEMENT estudiante (#PCDATA)>
+     <!ATTLIST estudiante cod ID #REQUIRED
+                          idref IDREFS #IMPLIED>
+
+]>
+-->
+<grupo  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="07.xsd">
+     
+    <estudiante cod="E1" idref="E2 E3">
+        David
+        
+    </estudiante>
+    <estudiante cod="E4" idref="E2 E3">
+        Apa
+        
+    </estudiante>
+    <estudiante cod="E2" idref="E2 E3">
+        Davidjr
+        
+    </estudiante>
+    <estudiante cod="E3" idref="E2 E3">
+        David Juan
+        
+    </estudiante>
+    
+    
+</grupo>

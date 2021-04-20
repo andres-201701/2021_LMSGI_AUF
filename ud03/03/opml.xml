@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version=" 2 0 ">
+<head>
+	<title>Ejercicio 03 Andrés de Uña</title>
+	<dateCreated>Mon, 25 Jan 2021 19:11:34 +0100</dateCreated>
+	<dateModified>Mon, 25 Jan 2021 19:11:34 +0100</dateModified>
+	<ownerName>Andres de Uña</ownerName>
+	<ownerEmail>andresdeuna@gmail.com</ownerEmail>
+</head>
+<body>
+	<outline text="realmadrid.com - Portada"
+			description="realmadrid.com - Portada"
+			title="realmadrid.com - Portada"
+			language="es - es" type="rss" version="RSS2"/>
+	<outline text="realmadrid.com Sección Deportes"
+					description="realmadrid.com Sección Deportes"
+					title="realmadrid.com Sección Deportes"
+					language="es" type="rss" version="RSS2" xmlUrl="view
+					source:https://www.realmadrid.com/"/>
+</body>
+
+
+
+</opml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	

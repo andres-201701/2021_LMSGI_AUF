@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:arial;
+	font-size: 0.95em;
+}
+
+ul, ol {list-style:none;}
+	a {text-decoration:none; color:black;}
+	
+header{
+	text-align:center;
+}
+
+header h1 { font-size: 30px; padding:25px;}
+header h2 { font-size: 25px; padding:20px;}
+header h2:before {
+content:  "\f000";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+	 text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+header h3 { font-size: 20px; padding:15px;}
+header h4 { font-size: 15px; padding:10px;}
+
+nav li{
+	 display:inline;
+	 padding:10px;
+	 }
+nav a:hover{
+	background-color: grey;
+	color: white;
+	padding: 20px;
+}
+section { 
+	width:33.33%;
+	float:left;
+ }
+
+main:after{
+	content:"";
+	display:table;
+	clear: both;
+}
+
+footer{
+	text-align:center;
+	padding:10px;
+}
+article{
+	background-color:grey;
+	margin-bottom:5px;
+	margin:10px;
+	border-radius:5%;
+	
+}
+h3, h4{
+color:white;
+}
+
+img{
+	width: 120px;
+	height: 120px;
+}
+article figure{
+	position:absolute;
+	left: 2px;
+}
+figcaption{
+	text-align:center;
+	font-size:0.80em;
+}
+div{
+	position:relative;
+	padding-left:11%;
+}
+article footer{
+	margin-left: 55%;
+}

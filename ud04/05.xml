@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE Company SYSTEM '05.dtd'>
+ <Company>
+	<Employee>
+		<FirstName>
+                </FirstName>
+                <LastName>
+                </LastName>	
+                <ContactNo>
+                    
+                </ContactNo>
+                <Email>
+                    
+                </Email>
+                <Address>
+                    <City>
+                        
+                    </City>
+                    <State>
+                        
+                    </State>
+                    <Zip>
+                        
+                    </Zip>
+                </Address>
+            </Employee>
+</Company>

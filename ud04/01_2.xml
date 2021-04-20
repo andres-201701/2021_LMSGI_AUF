@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+<horario>
+ <tabla>
+ </tabla>
+ <profesores>
+ </profesores>
+ <asignaturas>
+    <codigo>LM</codigo>
+    <nombre>Lenguaje de Marcas</nombre>
+ </asignaturas>
+</horario>
+-->
+
+<!DOCTYPE mail[
+    <!ELEMENT remitente (#PCDATA)>
+    <!ELEMENT destinatario (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT fecha EMPTY>
+    <!ELEMENT fichero (#PCDATA)>
+    <!ELEMENT main (remitente, destinatario+, fecha, asunto?, mensaje?, fichero*)>
+    <!ATTLIST fecha dia CDATA #REQUIRED
+                    mes CDATA #REQUIRED
+                    anyo CDATA #REQUIRED>
+    <!ATTLIST fichero tipo CDATA #IMPLIED>
+    ]>
+<mail>
+	<remitente>perico@gmail.com</remitente>
+	
+	<destinatario>ambrosio@gmail.com</destinatario>
+	<destinatario>meli@gmail.com</destinatario>
+	<destinatario>amor@gmail.com</destinatario>
+	<fecha dia="16" mes="01" anyo="2021"/>
+		
+	<asunto> PRUEBA DE MENSAJE</asunto>
+	<mensaje/>
+	<fichero tipo="aplication/pdf">
+		informe.pdf
+	</fichero>
+	<fichero tpo="image/jpg">
+		foto.jpg
+	</fichero> 
+	
+	
+</mail>

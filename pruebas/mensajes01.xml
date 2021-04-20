@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<msj:mensaje
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ped='https://www.miempresa.com/pedido'
+    xmlns:msj='https://www.miempresa.com/mensajes'
+    xsi:schemaLocation='https://www.miempresa.com/pedido pedido.xsd
+   https://www.miempresa.com/mensajes mensajes.xsd'>
+    <msj:emisor>directora@iessauces.es</msj:emisor>
+    <msj:destinatario>oscar@ieslossauces.es</msj:destinatario>
+    <msj:mensaje>
+        <ped:pedido>
+             <ped:ordenpedido>orden1</ped:ordenpedido>
+            <ped:fecha>2021-03-04</ped:fecha>
+            <ped:id>12</ped:id>
+           
+        </ped:pedido>
+    </msj:mensaje>
+
+</msj:mensaje>

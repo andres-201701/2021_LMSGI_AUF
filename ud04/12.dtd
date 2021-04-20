@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT receta (nombre, tiempo, ingredientes, instrucciones)>
+<!ATTLIST receta 
+            plato (primero|segundo|postre) #REQUIRED
+            xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tiempo EMPTY>
+<!ATTLIST tiempo
+            preparacion CDATA #REQUIRED
+            coccion CDATA #IMPLIED>
+<!ELEMENT ingredientes (ingrediente*)>
+<!ELEMENT ingrediente (nombre, cantidad?)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ATTLIST cantidad
+            unidad (gramos|pizca|mililitros|cuchara|chorro) #IMPLIED
+>
+<!ELEMENT instrucciones (paso)+>
+<!ELEMENT paso (#PCDATA)>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<!DOCTYPE formulario SYSTEM "13.dtd">
+
+<formulario
+xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+xsi:noNamespaceSchemaLocation='13.xsd'>
+    <datosPersonales>
+        <nombre>Paco</nombre>
+        <apellidos>Leon</apellidos>
+        <dni>12345678J</dni>
+    </datosPersonales>
+    <equipoFav equipo="RealMadrid">
+        <entrenador>ZZ</entrenador>
+    </equipoFav>
+    <posicionFav posicion="Delantero"/>
+    <jugadoresFav>
+        <jugador>Mbappe</jugador>
+        <jugador>Cristiano</jugador>
+    </jugadoresFav>
+</formulario>

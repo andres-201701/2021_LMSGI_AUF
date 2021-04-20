@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT mapaestelar (constelacion*)>
+<!ATTLIST mapaestelar
+    xmlns:xsi CDATA #IMPLIED
+     xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
+<!ELEMENT constelacion (nombre, superficie, estrellas, objetos, colindantes+, observacion)>
+<!ATTLIST constelacion 
+            nombreLatin CDATA #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT superficie (#PCDATA)>
+<!ELEMENT estrellas (asterismo, masBrillante)>
+<!ATTLIST estrellas 
+            numeroEstrellas CDATA #REQUIRED
+>
+<!ELEMENT asterismo (#PCDATA)>
+<!ELEMENT masBrillante (#PCDATA)>
+<!ATTLIST masBrillante 
+            luminosidad CDATA #REQUIRED
+>
+<!ELEMENT objetos (cumulos, nebulosas, galaxias, cuasares, lluviademeteoros+)>
+<!ELEMENT cumulos (#PCDATA)>
+<!ELEMENT nebulosas (#PCDATA)>
+<!ELEMENT galaxias (#PCDATA)>
+<!ELEMENT cuasares (#PCDATA)>
+<!ELEMENT lluviademeteoros (#PCDATA)>
+<!ELEMENT colindantes (#PCDATA)>
+<!ELEMENT observacion (hemisferio, mes, hora)>
+<!ELEMENT hemisferio (#PCDATA)>
+<!ATTLIST hemisferio 
+            valor ( norte | sur) #REQUIRED
+>
+<!ELEMENT mes (#PCDATA)>
+<!ATTLIST mes 
+            valor CDATA #REQUIRED
+>
+<!ELEMENT hora (#PCDATA)>
+<!ATTLIST hora 
+            valor CDATA #REQUIRED
+>

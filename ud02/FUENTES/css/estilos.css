@@ -1,0 +1,35 @@
+@font-face{
+	font-family: Brightons, cursive;
+	src: url("brightons/Brightons.ttf")
+}
+ div {
+ margin:10px;
+}
+div:nth-child(1):first-line{
+	word-spacing:20px
+}
+div:nth-child(2):first-line{
+	word-spacing:20px
+}
+div:nth-child(3):last-line{
+	letter: justify
+}
+
+div:nth-child(1)  {  
+ font-family:'Goldman', cursive;
+}
+
+div:nth-child(2)  {  
+ font-family: 'Dancing Script', cursive;
+}
+
+
+div:nth-child(3)  {  
+  font-family: 'Brightons', cursive;
+  text-align-last: justify
+}
+
+
+
+
+

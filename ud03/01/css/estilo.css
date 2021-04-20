@@ -1,0 +1,19 @@
+﻿
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	background-color: grey;
+	color: white;
+	padding: 20px;
+}
+
+  
+  h1{
+    border: 3px red solid;
+    text-align: center;
+    padding: 5px;
+  }
+  

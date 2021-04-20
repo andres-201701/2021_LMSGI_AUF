@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="mapaestelar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="constelacion" type="xs:string">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="superficie" type="xs:string"/>
+                            <xs:element name="estrellas" type="xs:string">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="asterismo" type="xs:entero"/>
+                                        <xs:element name="masBrillante" type="xs:string">
+                                            <xs:simpleType>
+                                                <xs:sequence>
+                                                    <xs:attribute name="luminosidad" type="xs:string" use="required"/>
+                                                </xs:sequence>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                                <xs:simpleType>
+                                    <xs:sequence>
+                                        <xs:attribute name="numeroEstrellas" type="xs:string" use="required"/>
+                                    </xs:sequence>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="objetos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cumulos" type="xs:boolean"/>
+                                        <xs:element name="nebulosas" type="xs:boolean"/>
+                                        <xs:element name="galaxias" type="xs:boolean"/>
+                                        <xs:element name="cuasares" type="xs:boolean"/>
+                                        <xs:element name="lluviademeteoritos" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="colindantes" type="xs:string" maxOccurs="10"/>
+                            <xs:element name="observacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="hemisferio" type="xs:string">
+                                            <xs:simpleType>
+                                                <xs:attribute name="valor" type="xs:string"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="mes" type="xs:string">
+                                            <xs:simpleType>
+                                                <xs:attribute name="valor" type="xs:string"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="hora" type="xs:string">
+                                            <xs:simpleType>
+                                                <xs:attribute name="valor" type="xs:string"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                    </xs:complexType>
+                    <xs:simpleType>
+                        <xs:attribute name="nombreLatin" type="xs:string"/>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

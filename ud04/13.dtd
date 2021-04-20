@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT formulario (datosPersonales, equipoFav, posicionFav,jugadoresFav)>
+<!ATTLIST formulario
+            xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+> 
+<!ELEMENT datosPersonales (nombre, apellidos, dni)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT equipoFav (entrenador)>
+<!ATTLIST equipoFav
+                equipo (RealMadrid|FCBarcelona|AtMadrid|Sevilla) #REQUIRED
+>
+<!ELEMENT entrenador (#PCDATA)>
+<!ELEMENT posicionFav (#PCDATA)>
+<!ATTLIST posicionFav
+                posicion (Delantero|Centrocampista|Defensa|Portero) #REQUIRED
+>
+<!ELEMENT jugadoresFav (jugador)+>
+<!ELEMENT jugador (#PCDATA)>

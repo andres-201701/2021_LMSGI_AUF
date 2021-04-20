@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML 05 Andres de Uña </TITLE>
+	</head>
+<body>
+	<header>
+		<h1>Plantilla de formulario de Futbol </h1>
+		
+	</header>
+	<form>
+		<fieldset>
+		<legend>Datos Personales</legend>
+				<ul style="list-style:none;">
+					<li><label for="Nombre">Nombre</label><input name="nombre" type="text" value="" id="Nombre"></li>
+					<li><label for="Apellidos">Apellidos</label>	<input name="apellidos" type="text" value="" id="Apellidos"></li>
+					<li><label for="DNI">DNI</label><input name="DNI" type="text" value="" id="DNI"></li>
+					<li><label for="Telefono">Telefono</label><input name="Telefono" type="tel" value="(000)000-0000" id="Telefono"></li>
+					<li><label for="fecha">Fecha de nacimiento <input min="1909-01-01" max="2020-01-01" name="Fecha" type="date" id="Fecha"></li>
+			
+		
+			
+			<label for="CodigoPostal">Código Postal</label>
+			
+			<input name="Direccion" type="text" value="" id="Direccion1">
+			<input name="CodigoPostal" type="text" value="00000" id="CodigoPostal">
+			
+		</fieldset>
+		
+		<fieldset>
+			<legend>Equipo favorito</legend>
+		<ul style="list-style:none;">
+			<li><input name="Rm" type="radio" value="" id="rm"> <label for="rm">Real Madrid</label></li>
+			<li><input name="barsa" type="radio" value="" id="barsaa"> <label for="barsa">F.C Barcelona</label></li>
+			<li><input name="at" type="radio" value="" id="atm"> <label for="at">At. Madrid</label></li>
+			<li><input name="sev" type="radio" value="" id="Sev"> <label for="sev">Sevilla</label></li>
+			<li>
+						<label for="otro"><input name="otro1" type="radio" value="" id="otro">otro equipo</label>
+						<label for="otroo"><input name="otro2" type="text" value="" id="otroo1"></label>
+					</li>
+			
+				
+		</fieldset>
+		<fieldset>
+			<legend>Posición favorita</legend>
+		<ul style="list-style:none;">
+			<li><input name="del" type="checkbox" value="" id="deel"> <label for="del">Delantero</label></li>
+			<li><input name="cen" type="checkbox" value="" id="cent"> <label for="cen">Centrocampista</label></li>
+			<li><input name="de" type="checkbox" value="" id="def"> <label for="de">Defensa</label></li>
+			<li><input name="por" type="checkbox" value="" id="por"> <label for="po">Portero</label></li>
+			
+			
+				
+		</fieldset>
+		<fieldset>
+			<legend>Liga favorita</legend>
+				<input list="ligas" name="ligaa" id="ligaa">
+			<datalist id="ligas">
+					<option value="Santander">
+					<option value="Serie A">
+					<option value="Ligue 1">
+					<option value="Premier ">
+					<option value="Bundesliga">
+				</datalist>
+			
+		</fieldset>
+		<fieldset>
+			<legend>Documentos Adjuntafos</legend>
+			<table>
+			<tr>
+				<td><label for="DNI1"><input name="DNI1" type="radio" value="" id="DNI1">Fotocopia DNI</label></td>
+				<td><label for="Certificado"><input name="certificado" type="radio" value="" id="Certificado">Certificado Académico</label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><label for="Otro"><input name="otro" type="radio" value="" id="Otro">Otros Documentos (especifique)</label>
+					<label for="Otro1"><input name="otro1" type="text" value="" id="Otro1"></label></td>
+			</tr>
+			</table>
+		</fieldset>
+		<br/>
+		<input type="submit" value="Enviar Solicitud">
+	</form>		
+	</body>
+</html>
+		

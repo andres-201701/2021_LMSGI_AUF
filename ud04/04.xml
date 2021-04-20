@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE hechos SYSTEM '04.dtd'>
+ <horario>
+	<dia>
+		<lunes>
+			<hora>8:30 hasta 9:20
+				<asignatura>EDD</asignatura> 
+			</hora>
+		<datos>
+            <codigo>I3IF</codigo>
+            <profesor>Marcos</profesor>
+            <aula>IF27</aula>
+        </datos>
+			<hora>9:20 hasta 11:00
+				<asignatura>SINF</asignatura> 
+			</hora>
+		<datos>
+            <codigo>NCIF</codigo>
+            <profesor>Natividad</profesor>
+            <aula>IF27</aula>
+        </datos>
+			<hora>11:00 hasta 13:05
+				<asignatura>PROG</asignatura> 
+			</hora>
+		<datos>
+            <codigo>AMB</codigo>
+            <profesor>Ambrosio</profesor>
+            <aula>IF27</aula>
+        </datos>
+			<hora>13:05 hasta 13:50
+				<asignatura>FOL</asignatura> 
+			<hora>
+		<datos>
+            <codigo>CAFO</codigo>
+            <profesor>Cielo</profesor>
+            <aula>IF27</aula>
+        </datos>
+		</lunes>
+    
+	</dia>
+</horario>

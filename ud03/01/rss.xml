@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<copyright>
+		Andrés de Uña 
+		</copyright>
+		<language> es-es</language>
+		<lastBuildDate>
+		Tue, 19 Jan 2021 13:04:34 +0100
+		</lastBuildDate>
+		<pubDate> Tue, 19 Jan 2021 13:04:34 +0100
+		</pubDate>
+		<skipDays>
+		<day>Saturday</day>
+		<day>Sunday</day>
+		</skipDays>
+		<skiphours>
+		<hour>0</hour>
+		<hour>1</hour>
+		<hour>2</hour>
+		<hour>3</hour>
+		<hour>4</hour>
+		<hour>5</hour>
+		<hour>6</hour>
+		<hour>7</hour>
+		<hour>8</hour>
+		</skiphours>
+		
+				
+		<item>
+			<title>Practica 10</title>
+			<link>http://192.168.2.120/ud02/10/index.html</link>
+			<quid isPermaLink="true"> http://192.168.2.120/ud02/10/index.html </quid>
+			<description>
+			<![CDATA[
+				<h2> tabla de productos</h2>
+				<p> tabla de productos apple tarea 10</p>
+			]]>
+			</description>
+		</item>
+		
+		<item>
+			<title>Practica 11</title>
+			<link>http://192.168.2.120/ud02/11/index.html</link>
+			<quid isPermaLink="true"> http://192.168.2.120/ud02/11/index.html </quid>
+			<description>
+			<![CDATA[
+				<h2> El principito</h2>
+				<p> posicionamiento de distintos tipos</p>
+			]]>
+			</description>
+		</item>
+		
+		<item>
+			<title>Practica 12</title>
+			<link>http://192.168.2.120/ud02/12/index.html</link>
+			<quid isPermaLink="true"> http://192.168.2.120/ud02/12/index.html</quid>
+			<description>
+			<![CDATA[
+				<h2> Cosa</h2>
+				<p> Se quedó en el intento</p>
+			]]>
+			</description>
+		</item>
+		
+		<item>
+			<title>Practica 13</title>
+			<link>http://192.168.2.120/ud02/13/index.html</link>
+			<quid isPermaLink="true"> http://192.168.2.120/ud02/13/index.html </quid>
+			<description>
+			<![CDATA[
+				<h2> Articulos duplicados</h2>
+				<p> Articulos duplicados metidos en cajas</p>
+			]]>
+			</description>
+		</item>
+		
+		<item>
+			<title>Practica 14</title>
+			<link>http://192.168.2.120/ud02/14/index.html</link>
+			<quid isPermaLink="true"> http://192.168.2.120/ud02/14/index.html </quid>
+			<description>
+			<![CDATA[
+				<h2> tabla de productos</h2>
+				<p> tabla de productos apple tarea 10</p>
+			]]>
+			</description>
+		</item>
+		
+	</channel>
+</rss>

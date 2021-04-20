@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+ul, ol {list-style:none;}
+@font face{
+src= url('../fontawesome-free-5.15.1-web/webfonts/fa-solid-900.woff');
+
+}
+
+	
+}
+#content { background-color: grey;}
+#content #izquierda{ width:30%; float:left;background-color: grey;}
+#content #derecha{ width:70%; float:right;background-color: lightyellow;}
+
+#content #izquierda .dato { padding:20px;}
+#content #izquierda .dato span { font-weight:bold; letter-spacing: 5px;}
+#content #izquierda .dato:before{
+	position: relative;
+	font-family:'FontAwesome';
+	width: 30px;
+	height: 30px;
+	font-size:20px;
+	text-align: center;
+	line-height:30px;
+	color:white;
+	border: 1px  solid white;
+	border-radius:50%;
+	padding:5px;
+	left: -10px;
+	
+}
+#content #izquierda .direccion:before{
+	content: "\f040";
+}
+#content #izquierda .telefono:before{
+	content: "\f095";
+}
+#content #izquierda .email:before{
+	content: "\f1fa";
+}
+#content #izquierda .fecha:before{
+	content: "\f133";
+}
+#content #izquierda .nacionalidad:before{;
+	content: "\f11e";
+}
+#content #izquierda .estado:before{
+	content: "\f183";
+}
+#content #izquierda .dni:before{
+	content: "\f0fd";
+}
+#content #derecha .dato { padding:20px;}
+#content #derecha .dato span { font-weight:bold; letter-spacing: 5px;}
+#content #derecha .dato:before{
+	position: relative;
+	font-family:'FontAwesome';
+	width: 30px;
+	height: 30px;
+	font-size:20px;
+	text-align: center;
+	line-height:30px;
+	color:white;
+	border: 1px  solid white;
+	border-radius:50%;
+	padding:5px;
+	left: -10px;
+}
+
+#content #derecha .blue{
+	color:blue;
+}
+#content #derecha .der{
+	position: relative;
+	font-family:'FontAwesome';
+	right: -50%;
+	top: -357px;
+}
+#content #derecha .abajo{
+	position: relative;
+	font-family:'FontAwesome';
+	
+	top: -157px;
+}

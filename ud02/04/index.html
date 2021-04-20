@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML 04 Andres de Uña </TITLE>
+	</head>
+<body>
+	<header>
+		<h1>HOJA DE INSCRIPCION</h1>
+		<h2> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+	</header>
+	<form>
+		<fieldset>
+			<legend>Datos Personales</legend>
+			<table>
+			<tr>
+			<td><label for="Nombre">Nombre</label></td>
+			<td><label for="Apellidos">Apellidos</label></td>
+			<td><label for="DNI">DNI</label></td>
+			<td><label for="Telefono">Telefono</label></td>
+			</tr>
+			<tr>
+			<td><input name="nombre" type="text" value="" id="Nombre">
+			<td><input name="apellidos" type="text" value="" id="Apellidos">
+			<td><input name="DNI" type="text" value="" id="DNI">
+			<td><input name="Telefono" type="tel" value="(000-0000)" id="Telefono">
+			</tr>
+			<tr>
+			<td><label for="Localidad">Localidad de Nacimiento</label></td>
+			<td><label for="Provincia">Provincia</label></td>
+			<td><label for="Fecha">Fecha de Nacimiento</label></td>
+			</tr>
+			<tr>
+			<td><input name="Localidad" type="text" value="" id="Localidad"></td>
+			<td>
+			<input list="Provincias" name="provincia" id="Provincia">
+			<datalist id="Provincias">
+					<option value="Zamora">
+					<option value="Leon">
+					<option value="Valladolid">
+					<option value="Salamanca">
+					<option value="Avila">
+					<option value="Palencia">
+					<option value="Soria">
+					<option value="Segovia">
+					<option value="Burgos">
+				</datalist></td>
+			<td><input min="1999-01-01" name="Fecha" type="date" id="Fecha">
+			</tr>
+			<tr>
+			<td colspan="2"><label for="Direccion1">Dirección</label></td>
+			<td><label for="CodigoPostal">Código Postal</label></td>
+			</tr>
+			<tr>
+			<td colspan="2"><input name="Direccion" type="text" value="" id="Direccion1">
+			<td><input name="CodigoPostal" type="text" value="00000" id="CodigoPostal">
+			</tr>
+			</table>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Forma de Acesso</legend>
+		<ul style="list-style:none;">
+			<li> <input name="directo" type="radio" value="" id="Directo"> <label for="Directo">Directo</label>
+			
+				<ul style="list-style:none;">
+					<li> 	
+						<label for="BachilleratoModalidad"><input name="bachillerato" type="radio" value="" id="BachilleratoModalidad">Bachillerato Modalidad</label>
+						<label for="BachilleratoModalidad1"><input name="bachillerato1" type="text" value="" id="BachilleratoModalidad1"></label>
+					</li>
+					<li>
+						<label for="BachilleratoExperimental"><input name="bachillerato2" type="radio" value="" id="BachilleratoExperimental">Bachillerato Experimental</label>
+					</li>
+					<li>
+						<label for="COU"><input name="COU" type="radio" value="" id="COU">COU Opción</label>
+						<label for="COU1"><input name="COU1" type="text" value="" id="COU1"></label>
+					</li>
+					<li>
+						<label for="Titulo"><input name="Titulo" type="radio" value="" id="Titulo">Título de Técnico(FPGM)</label>
+						<label for="Titulo1"><input name="Titulo1" type="text" value="" id="Titulo1"></label>
+					</li>
+					<li>
+						<label for="Universitaria"><input name="Uni" type="radio" value="" id="Universitaria">Titulación Universitaria</label>
+						<label for="Universitaria1"><input name="Uni1" type="text" value="" id="Universitaria1"></label>
+					</li>
+					
+				</ul>
+			</li>
+			<li>
+						<label for="Otros"><input name="Otros" type="radio" value="" id="Otros">Otros(especifique)</label>
+						<label for="Otros1"><input name="Otros1" type="text" value="" id="Otros1"></label>
+					</li>	
+		</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Documentos Adjuntafos</legend>
+			<table>
+			<tr>
+				<td><label for="DNI1"><input name="DNI1" type="radio" value="" id="DNI1">Fotocopia DNI</label></td>
+				<td><label for="Certificado"><input name="certificado" type="radio" value="" id="Certificado">Certificado Académico</label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><label for="Otro"><input name="otro" type="radio" value="" id="Otro">Otros Documentos (especifique)</label>
+					<label for="Otro1"><input name="otro1" type="text" value="" id="Otro1"></label></td>
+			</tr>
+			</table>
+		</fieldset>
+		<br/>
+		<input type="submit" value="Enviar Solicitud">
+	</form>		
+	</body>
+</html>
+		

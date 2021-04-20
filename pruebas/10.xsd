@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--
+Simple
+-->
+<!--
+Complejos
+-->
+
+<xs:complexType name="tipoModulos">
+    <xs:sequencie>
+        <xs:element name="modulo" type="tipoModulos" maxOccurs="unbounded"/>
+    </xs:sequencie>
+</xs:complexType>
+<xs:complexType name="tipoModulo">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="codM" type="xs:string">
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="tipoProfesores">
+    <xs:sequencie>
+        <xs:element name="profesors" type="tipoProfesor" maxOccurs="unbounded"/>
+    </xs:sequencie>
+</xs:complexType>
+<xs:complexType name="tipoProfesor">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="codP" type="xs:string">
+    </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="tipoImparte">
+    <xs:sequencie>
+        <xs:element name="asignatura" type="tipoAsignatura" maxOccurs="unbounded"/>
+    </xs:sequencie>
+</xs:complexType>
+<xs:complexType name="tipoAsignatura">
+            <xs:attribute name="codProfesor" type="xs:string" use="required"/>
+            <xs:attribute name="codM" type="xs:string" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="tipoGrupo">
+    <xs:sequence>
+        <xs:element name="hora" type="tipoHora" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="idGrupo" type="xs:string" use="required"/> 
+    <xs:attribute name="codT" type="xs:ID" use="required"/>
+</xs:complexType>
+<xs:complexType name="tipoHora">
+    <xs:sequence>
+        <xs:element  name="dia_sem" type="tipoDiaSem" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="entrada" type="xs:string" use="required"/>
+    <xs:attribute name="salida" type="xs:string" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="tipoDiaSem">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="entrada" type="xs:string" use="required"/>
+            <xs:attribute name="salida" type="xs:string" default="1"/>
+
+        </xs:extension>
+    </xs:simpleContent>
+    
+</xs:complexType>
+<!--
+
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="horario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modulos" type="tipoModulos"/>
+                <xs:element name="profesores" type="tipoPreofesores"/>
+                <xs:element name="imparte" type="tipoImparte"/>
+                <xs:element name="grupo" type="tipoGrupo" maxOccurs="4"/>
+            </xs:sequence>
+            <xs:attribute name="curso" type="xs:string"/>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>

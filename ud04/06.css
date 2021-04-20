@@ -1,0 +1,16 @@
+nombre{
+    color:red;
+    font-size: 18px;
+    
+    
+}
+ejemplo {
+    
+    white-space: pre;
+    
+}
+ejemplo::after{
+    
+    content:'/A';
+     white-space: pre;
+}

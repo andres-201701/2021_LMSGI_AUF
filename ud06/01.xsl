@@ -14,7 +14,7 @@
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
-    <xsl:template match="/edificio">
+    <xsl:template match="/edificio"> 
         <html> 
             <head>
                 <title>XSLT 01 Andrés de Uña</title>

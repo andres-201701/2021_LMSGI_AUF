@@ -33,8 +33,8 @@
                 <h1>Información de tickets</h1>
                 <h2>Listado de tickets</h2>
                 <xsl:apply-templates select="ticket"/>
-                <xsl:apply-templates select="count(ticket)"/>
-                <xsl:apply-templates select="sum(total)"/>
+                 Número de tickets: <xsl:value-of select="count(//ticket)"/><br/>
+                 Total de Tickets:<xsl:value-of select="sum(//total)"/>
             </body>
         </html>
     </xsl:template>
@@ -53,6 +53,7 @@
                 </th>
             </tr>
         </table>
+        <div>Fecha del ticket 2012-01-20</div>
     </xsl:template>
    
    <xsl:template match="producto">

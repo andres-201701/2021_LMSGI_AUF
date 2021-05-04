@@ -58,8 +58,11 @@
    
    <xsl:template match="producto">
     <tr>
-        <td><xsl:apply-templates select="nombre"/></td>
-        <td><xsl:apply-templates select="precio"/></td>
+       <xsl:apply-templates select="*"/>
+        
     </tr>
+   </xsl:template>
+   <xsl:template match="*">
+       <td><xsl:value-of select="current()"/></td>
    </xsl:template>
 </xsl:stylesheet>

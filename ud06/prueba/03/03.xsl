@@ -5,7 +5,7 @@
     <xsl:template match="/horario">
         <html>
             <head>
-                <title>XSLT 03 Andres</title>
+                <title>XSLT 03</title>
                 <style>
                     table, tr, td, th{border: 1px solid grey;}
                 </style>

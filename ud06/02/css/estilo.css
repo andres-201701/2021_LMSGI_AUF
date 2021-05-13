@@ -1,24 +1,34 @@
 ﻿
-body{
-	background-color: #04F2F9;
+h1 ,  h2 ,  h3 ,  p {
+    padding-left : 10 px ;
 }
 
-h1{
-	font-size:50px;
-	text-align: center;
-	background-color: blue;
+h1 {
+    color : verde;
+    color de fondo :  # cccccc ;
 }
 
-h3{
-	font-size: 50px;
-	text-align: center;
-	background-color: #F9E604;
+h2 ,  h3 {
+    color :  # cccccc ;
+    color de fondo : verde;
 }
 
-a{
-	text-decoration: none; color: black; width: auto;  padding-left: 45%; 
+h3 {
+    alineación de texto : derecha;
+    padding-top :  5 px ;
+    fondo acolchado :  5 px ;
+    padding-right :  10 px ;
+    margen :  0 ;
 }
 
+p {
+    color : verde;
+}
+
+tabla {
+    ancho :  90 % ;
+    padding-left : 15 % ;
+}
 
   
   

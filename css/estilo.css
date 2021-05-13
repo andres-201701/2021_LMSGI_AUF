@@ -1,18 +1,34 @@
-﻿
+﻿html {
+    min-height: 100%;
+    position: relative;
+    background-image:url(../images/fondo.jpg);
+    
+}
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 body{
-	background-color: #04F2F9;
+	min-height: 100%;
+    position: relative;
+    background-image:url(../images/fondo.jpg);
 }
 
 h1{
 	font-size:50px;
 	text-align: center;
-	background-color: blue;
+	
 }
-
+h2{
+	font-size:50px;
+	text-align: center;
+	
+}
 h3{
 	font-size: 50px;
 	text-align: center;
-	background-color: #F9E604;
+	
 }
 
 a{

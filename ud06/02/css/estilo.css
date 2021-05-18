@@ -4,30 +4,29 @@ h1 ,  h2 ,  h3 ,  p {
 }
 
 h1 {
-    color : verde;
-    color de fondo :  # cccccc ;
+    color : greeen;
+    background-color:  #cccccc ;
 }
 
 h2 ,  h3 {
-    color :  # cccccc ;
-    color de fondo : verde;
+    color :  #cccccc ;
+    background-color: greeen;
 }
 
 h3 {
-    alineación de texto : derecha;
+   text-align:  right;
     padding-top :  5 px ;
-    fondo acolchado :  5 px ;
     padding-right :  10 px ;
     margen :  0 ;
 }
 
 p {
-    color : verde;
+    color :greeen;
 }
 
 tabla {
-    ancho :  90 % ;
-    padding-left : 15 % ;
+    ancho :  90% ;
+    padding-left : 15% ;
 }
 
   

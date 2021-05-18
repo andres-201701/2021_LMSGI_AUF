@@ -10,17 +10,25 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
-
+    <xsl:include href="../lib/web.xsl"/>
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="/">
+        <!--<xsl:call-template name="docTipo"/>-->
         <html>
             <head>
+                <xsl:call-template name="web.xsl">
+                    <xsl:with-param name="titulo" select="'Andres de Uña'"/>
+                    <xsl:with-param name="descripcion" select="'el tiempo de una semana'"/>
+                </xsl:call-template>
+                
+                <!--
                 <title>08.xsl Andrés de Uña</title>
                  <style>
                     table, tr, td, th{border: 1px solid blue;}
                 </style>
+                  -->
             </head>
             <body>
                 <h1>Predicción por municipios </h1>

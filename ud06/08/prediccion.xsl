@@ -75,7 +75,7 @@
                 
                 <img>
                     <xsl:attribute name="src">
-                        <xsl:value-of select="concat('images/',direccion,'.gif')"/>
+                        <xsl:value-of select="concat('images/',viento/direccion,'.gif')"/>
                     </xsl:attribute>
                     <xsl:attribute name="alt">
                         <xsl:value-of select="viento/direccion"/>

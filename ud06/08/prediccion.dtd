@@ -13,7 +13,9 @@ and open the template in the editor.
 
 <!-- TODO define your own vocabulary/syntax. Example follows:  -->
 <!ELEMENT prediccion (municipio, dia+)>
-
+<!ATTLIST prediccion
+xmlns:xsi CDATA #IMPLIED
+            xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
 <!ELEMENT municipio (nombre, provincia)>
 
 <!ATTLIST municipio

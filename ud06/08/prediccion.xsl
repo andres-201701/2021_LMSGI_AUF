@@ -28,6 +28,7 @@
                  <style>
                     table, tr, td, th{border: 1px solid blue;}
                 </style>
+              <link rel="stylesheet" href="08.css" type="text/css"/>
                   -->
             </head>
             <body>

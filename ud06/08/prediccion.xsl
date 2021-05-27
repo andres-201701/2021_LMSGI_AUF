@@ -18,18 +18,18 @@
         <!--<xsl:call-template name="docTipo"/>-->
         <html>
             <head>
-                <xsl:call-template name="web.xsl">
+              <!--  <xsl:call-template name="web.xsl">
                     <xsl:with-param name="titulo" select="'Andres de Uña'"/>
                     <xsl:with-param name="descripcion" select="'el tiempo de una semana'"/>
                 </xsl:call-template>
+                -->
                 
-                <!--
                 <title>08.xsl Andrés de Uña</title>
                  <style>
                     table, tr, td, th{border: 1px solid blue;}
                 </style>
               <link rel="stylesheet" href="08.css" type="text/css"/>
-                  -->
+                  
             </head>
             <body>
                 <h1>Predicción por municipios </h1>

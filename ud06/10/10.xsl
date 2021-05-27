@@ -20,7 +20,11 @@
     </xsl:template>
     <xsl:template match="/ethernets">
         <xsl:value-of select="/name/text()"/>
-        
+        <xsl:value-of select="concat(name(),':')"/>
+            <xsl:value-of select="name"/>
+            <xsl:value-of select="addresses"/>
+            <xsl:value-of select="gateway4"/>
+            <xsl:for-each select="//nameservers"/>
     </xsl:template>
             
    

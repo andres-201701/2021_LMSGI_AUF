@@ -1,1 +1,28 @@
-﻿  
+#contenedor{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+ 
+
+.caja{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+ 
+
+.caja div:first-of-type{
+    font-weight: bold;
+    margin: 3%;
+}
+
+ 
+.fecha {
+    background-color: grey;
+    color: white;
+    width: 75%;
+    margin: 2px auto;
+    padding: 2px;
+}

@@ -14,17 +14,19 @@
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
-    <xsl:template match="/network">
+    <xsl:template match="network">
         <xsl:value-of select="concat(name(),':')"/>
+        <xsl:apply-templates select="ethernets"/>
         
     </xsl:template>
-    <xsl:template match="/ethernets">
-        <xsl:value-of select="/name/text()"/>
+    <xsl:template match="ethernets">
         <xsl:value-of select="concat(name(),':')"/>
-            <xsl:value-of select="name"/>
+        <xsl:value-of select="name"/>
+            <xsl:value-of select="concat(name(addresses),':')"/>
             <xsl:value-of select="addresses"/>
-            <xsl:value-of select="gateway4"/>
-            <xsl:for-each select="//nameservers"/>
+            <xsl:value-of select="concat(name(gateway4),':',gateway4)"/>
+            <xsl:value-of select="concat(name(nameservers),':',nameservers/addresses)"/>
+            
     </xsl:template>
             
    

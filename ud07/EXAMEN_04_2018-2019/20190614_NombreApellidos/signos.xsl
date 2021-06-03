@@ -17,14 +17,14 @@ Mostrar horoscopo / los signos del zodiaco
         <html>
             <head>
                 <xsl:call-template name="metaWeb">
-                    <xsl:with-param name="titulo" select="'Horoscopo David del Prado'"/>
+                    <xsl:with-param name="titulo" select="'Horoscopo Andres de Uña'"/>
                     <xsl:with-param name="descripcion" select="'Horoscopo'"/>
                     <xsl:with-param name="keywords" select="'Horoscopo, xsl, xslt, xml'"/>
                 </xsl:call-template>
             </head>
             <body>
                 <div id="contenedor">
-                    <h1>HOROSCOPO/SIGNOS DEL ZODIACO</h1>
+                    <h1>HOROSCOPO/SIGNOS DEL ZODIACO </h1>
                     <xsl:apply-templates select="//signo"/>
                 </div>
             </body>

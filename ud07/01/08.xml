@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Listar Practicas</title>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    <h1>Listado</h1>
+    <div>
+      <a href="ud1/01.html">Tema1Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud1/02.html">Tema1Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud1/03.html">Tema1Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud2/01.html">Tema2Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud2/02.html">Tema2Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud2/03.html">Tema2Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud3/01.html">Tema3Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud3/02.html">Tema3Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud3/03.html">Tema3Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud4/01.html">Tema4Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud4/02.html">Tema4Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud4/03.html">Tema4Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud5/01.html">Tema5Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud5/02.html">Tema5Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud5/03.html">Tema5Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud6/01.html">Tema6Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud6/02.html">Tema6Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud6/03.html">Tema6Ejercicio3</a>
+    </div>
+    <div>
+      <a href="ud7/01.html">Tema7Ejercicio1</a>
+    </div>
+    <div>
+      <a href="ud7/02.html">Tema7Ejercicio2</a>
+    </div>
+    <div>
+      <a href="ud7/03.html">Tema7Ejercicio3</a>
+    </div>
+  </body>
+</html>
